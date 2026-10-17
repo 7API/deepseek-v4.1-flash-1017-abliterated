@@ -1,0 +1,32 @@
+# DeepSeek V4.1 Flash 1017 Abliterated or Uncensored — 7API
+
+> DeepSeek V4.1 Flash 1017 abliterated or uncensored models: 35 paste-ready jailbreak prompts, a model guide, evaluation method and API access through 7API. OpenAI- and Anthropic-compatible, pay per token.
+
+## Primary pages
+
+- https://github.com/7API/deepseek-v4.1-flash-1017-abliterated
+- https://github.com/7API/deepseek-v4.1-flash-1017-abliterated/blob/main/docs/01-what-is-deepseek-v4.1-flash-1017-abliterated.md
+- https://github.com/7API/deepseek-v4.1-flash-1017-abliterated/blob/main/docs/02-abliterated-vs-uncensored.md
+- https://github.com/7API/deepseek-v4.1-flash-1017-abliterated/blob/main/docs/03-deepseek-v4.1-flash-1017-api-quickstart.md
+- https://github.com/7API/deepseek-v4.1-flash-1017-abliterated/blob/main/docs/05-evaluating-deepseek-v4.1-flash-1017-abliterated.md
+- https://github.com/7API/deepseek-v4.1-flash-1017-abliterated/blob/main/docs/08-faq.md
+
+## Key facts
+
+- Primary keyword: DeepSeek V4.1 Flash 1017 abliterated or uncensored.
+- Covers: DeepSeek V4.1 Flash 1017 abliterated model, uncensored model, jailbreak prompts and API.
+- The jailbreak collection contains 35 paste-ready prompts; the prompt files are shared with the AI Jailbreaks repository.
+- API: OpenAI- and Anthropic-compatible; works with Claude Code, Cursor, OpenCode and Codex CLI.
+- Billing: pay per token, no subscription; crypto top-ups.
+- Model IDs and variant availability are listed in the 7API dashboard.
+- Abliteration reduces refusals; it does not guarantee refusal-free output.
+- `1017` is part of the build/variant label; confirm the current model ID before deploying.
+
+## Companion
+
+- https://github.com/7API/uncensored-ai-api
+- https://github.com/Alejandros17487/ai-jailbreaks
+
+## Website
+
+- https://7api.st
