@@ -12,14 +12,14 @@
 
 **DeepSeek V4.1 Flash 1017 is one model in the DeepSeek V4.1 family. The same 7API key also covers Claude, GPT, Gemini, Grok, GLM and Kimi — with uncensored variants where available.**
 
-# DeepSeek V4.1 Flash 1017 Abliterated or Uncensored — Jailbreak Prompts, Model Guide & API Access
+# DeepSeek V4.1 Flash 1017 Abliterated or Uncensored — DeepSeek Prompt, Model Guide & API Access
 
 **Everything about DeepSeek V4.1 Flash 1017 abliterated and DeepSeek V4.1 Flash 1017 uncensored models:** what the terms mean, how to access a DeepSeek V4.1 Flash 1017 abliterated or uncensored model through one OpenAI- and Anthropic-compatible API, how to evaluate refusal behavior, and how to use it with Claude Code, Cursor, OpenCode and Codex.
 
 People also search for this as a **DeepSeek V4.1 Flash 1017 uncensored AI model**, a **DeepSeek V4.1 Flash 1017 abliterated model**, or a **DeepSeek V4.1 Flash 1017 no-refusal model**. The labels overlap; the evaluation questions are the same.
 
 [![Model](https://img.shields.io/badge/model-DeepSeek%20V4.1%20Flash%201017-22c55e?style=flat)](#what-is-deepseek-v41-flash-1017)
-[![Jailbreaks](https://img.shields.io/badge/jailbreaks-35-22c55e?style=flat)](#deepseek-v41-flash-1017-jailbreak-collection-35-prompts)
+[![Prompt](https://img.shields.io/badge/prompt-DeepSeek%204.1-22c55e?style=flat)](#prompt-collection)
 [![Variant](https://img.shields.io/badge/variant-abliterated%20%C2%B7%20uncensored-22c55e?style=flat)](#abliterated-vs-uncensored)
 [![API](https://img.shields.io/badge/API-OpenAI%20%2B%20Anthropic-0ea5e9?style=flat)](#quickstart)
 [![Billing](https://img.shields.io/badge/billing-pay%20per%20token-22c55e?style=flat)](#pricing-and-access)
@@ -49,9 +49,9 @@ DeepSeek V4.1 Flash 1017 is one model in the 7API catalog — not the whole prod
   <img src="assets/banner.gif" width="600" alt="DeepSeek V4.1 Flash 1017 abliterated or uncensored — model guide and API access via 7API">
 </a>
 
-## DeepSeek V4.1 Flash 1017 jailbreak collection (35 prompts)
+## Prompt collection
 
-The **jailbreak collection is the main event**. These are the same paste-ready prompt files as the AI Jailbreaks repository — every prompt is kept intact. Only this README changes: it adds the DeepSeek V4.1 Flash 1017 abliterated/uncensored angle and the API path.
+The primary DeepSeek prompt stays at the repository root: [`deepseek-4-1.md`](./deepseek-4-1.md). Every other prompt and config file lives in [`collection/`](./collection/), and the table below links directly to those files. The wider multi-model library is also mirrored in [AI Jailbreaks](https://github.com/Alejandros17487/ai-jailbreaks).
 
 ### Collection
 
@@ -59,78 +59,78 @@ The **jailbreak collection is the main event**. These are the same paste-ready p
 
 | Model | File | Type |
 |---|---|---|
-| **Big Pickle** | [bigpickle-opencode.md](./bigpickle-opencode.md) | VANTA persona lock with explicit operating floor |
-| **Space Bunny** | [spacebunny-agents.md](./spacebunny-agents.md) | Assistant operating specification |
-| **LongCat 2.5** | [longcat-agents.md](./longcat-agents.md) | Assistant operating specification |
-| **MiMo V2.6** | [mimo-2.6-agents.md](./mimo-2.6-agents.md) | Assistant operating specification |
-| **Step 5 Preview** | [step-5-preview.md](./step-5-preview.md) | Workspace operating profile |
-| **Muse Spark 1.3** | [muse-spark-1.3.md](./muse-spark-1.3.md) | Agent deployment operating policy |
-| **Muse Spark 1.3 v2** | [muse-spark-1.3-v2.md](./muse-spark-1.3-v2.md) | Runtime scope-note variant |
-| **Muse.ai** | [muse-ai-agents.md](./muse-ai-agents.md) | Assistant operating specification |
+| **Big Pickle** | [bigpickle-opencode.md](./collection/bigpickle-opencode.md) | VANTA persona lock with explicit operating floor |
+| **Space Bunny** | [spacebunny-agents.md](./collection/spacebunny-agents.md) | Assistant operating specification |
+| **LongCat 2.5** | [longcat-agents.md](./collection/longcat-agents.md) | Assistant operating specification |
+| **MiMo V2.6** | [mimo-2.6-agents.md](./collection/mimo-2.6-agents.md) | Assistant operating specification |
+| **Step 5 Preview** | [step-5-preview.md](./collection/step-5-preview.md) | Workspace operating profile |
+| **Muse Spark 1.3** | [muse-spark-1.3.md](./collection/muse-spark-1.3.md) | Agent deployment operating policy |
+| **Muse Spark 1.3 v2** | [muse-spark-1.3-v2.md](./collection/muse-spark-1.3-v2.md) | Runtime scope-note variant |
+| **Muse.ai** | [muse-ai-agents.md](./collection/muse-ai-agents.md) | Assistant operating specification |
 
 ### Anthropic — Claude
 
 | Model | File | Type |
 |---|---|---|
-| **Opus** | [opus-v1.md](./opus-v1.md) · [opus-v2.md](./opus-v2.md) | Conversational groundwork persona, v1 / v2 |
-| **Sonnet** | [sonnet-v1.md](./sonnet-v1.md) · [sonnet-v2.md](./sonnet-v2.md) | Writer's-room framing, v1 / v2 |
+| **Opus** | [opus-v1.md](./collection/opus-v1.md) · [opus-v2.md](./collection/opus-v2.md) | Conversational groundwork persona, v1 / v2 |
+| **Sonnet** | [sonnet-v1.md](./collection/sonnet-v1.md) · [sonnet-v2.md](./collection/sonnet-v2.md) | Writer's-room framing, v1 / v2 |
 
 ### Zhipu — GLM / ZCode (shared prompt collection)
 
 | Model | File | Type |
 |---|---|---|
-| **GLM-5.2** | [glm-5.2.md](./glm-5.2.md) | System prompt |
-| **GLM ZCode 5.2** | [glm-zcode-5.2.md](./glm-zcode-5.2.md) | System prompt |
-| **GLM ZCode 5.3** | [glm-zcode-5.3.md](./glm-zcode-5.3.md) · [glm-zcode-5.3-agents.md](./glm-zcode-5.3-agents.md) | System prompt + `AGENTS.md` drop-in |
-| **GLM-5.3 Flash** | [glm-5-3-flash.md](./glm-5-3-flash.md) | Assistant operating specification |
-| **GLM-5.3 (OpenCode)** | [glm5-3-opencode.md](./glm5-3-opencode.md) | Assistant operating specification |
+| **GLM-5.2** | [glm-5.2.md](./collection/glm-5.2.md) | System prompt |
+| **GLM ZCode 5.2** | [glm-zcode-5.2.md](./collection/glm-zcode-5.2.md) | System prompt |
+| **GLM ZCode 5.3** | [glm-zcode-5.3.md](./collection/glm-zcode-5.3.md) · [glm-zcode-5.3-agents.md](./collection/glm-zcode-5.3-agents.md) | System prompt + `AGENTS.md` drop-in |
+| **GLM-5.3 Flash** | [glm-5-3-flash.md](./collection/glm-5-3-flash.md) | Assistant operating specification |
+| **GLM-5.3 (OpenCode)** | [glm5-3-opencode.md](./collection/glm5-3-opencode.md) | Assistant operating specification |
 
 ### DeepSeek
 
 | Model | File | Type |
 |---|---|---|
-| **DeepSeek V3** | [deepseek-v3.md](./deepseek-v3.md) | System prompt |
-| **DeepSeek V4** | [deepseek-v4.md](./deepseek-v4.md) | System prompt |
+| **DeepSeek V3** | [deepseek-v3.md](./collection/deepseek-v3.md) | System prompt |
+| **DeepSeek V4** | [deepseek-v4.md](./collection/deepseek-v4.md) | System prompt |
 | **DeepSeek 4.1** | [deepseek-4-1.md](./deepseek-4-1.md) | Assistant operating specification |
 
 ### Moonshot — Kimi
 
 | Model | File | Type |
 |---|---|---|
-| **Kimi K2** | [kimi-k2.md](./kimi-k2.md) | System prompt |
-| **Kimi K3** | [kimi-k3-agents.md](./kimi-k3-agents.md) | Workspace operating profile |
+| **Kimi K2** | [kimi-k2.md](./collection/kimi-k2.md) | System prompt |
+| **Kimi K3** | [kimi-k3-agents.md](./collection/kimi-k3-agents.md) | Workspace operating profile |
 
 ### xAI — Grok
 
 | Model | File | Type |
 |---|---|---|
-| **Grok Build** | [grok-build.md](./grok-build.md) | Agent operating instructions |
-| **Grok 4.7** | [grok-4.7.md](./grok-4.7.md) | App-builder workspace guide |
-| **Grok Config** | [grok-config.txt](./grok-config.txt) | `<CFG>` priority and routing configuration |
+| **Grok Build** | [grok-build.md](./collection/grok-build.md) | Agent operating instructions |
+| **Grok 4.7** | [grok-4.7.md](./collection/grok-4.7.md) | App-builder workspace guide |
+| **Grok Config** | [grok-config.txt](./collection/grok-config.txt) | `<CFG>` priority and routing configuration |
 
 ### Google / Mistral / Alibaba
 
 | Model | File | Type |
 |---|---|---|
-| **Gemini 4 Argon** | [gemini-4-argon.md](./gemini-4-argon.md) | Operating policy |
-| **Mistral Large 4** | [mistral-large-4.md](./mistral-large-4.md) | Agent system prompt |
-| **Qwen 3.7** | [qwen-3.7.md](./qwen-3.7.md) | System prompt |
+| **Gemini 4 Argon** | [gemini-4-argon.md](./collection/gemini-4-argon.md) | Operating policy |
+| **Mistral Large 4** | [mistral-large-4.md](./collection/mistral-large-4.md) | Agent system prompt |
+| **Qwen 3.7** | [qwen-3.7.md](./collection/qwen-3.7.md) | System prompt |
 
 ### Ollama Modelfiles
 
 | Model | File | Type |
 |---|---|---|
-| **Gemma 4** | [gemma4.md](./gemma4.md) | `FROM` + `SYSTEM` block |
-| **GPT-OSS 20B** | [gpt-oss-20b.md](./gpt-oss-20b.md) | `FROM` + `SYSTEM` block |
+| **Gemma 4** | [gemma4.md](./collection/gemma4.md) | `FROM` + `SYSTEM` block |
+| **GPT-OSS 20B** | [gpt-oss-20b.md](./collection/gpt-oss-20b.md) | `FROM` + `SYSTEM` block |
 
 ### Unfiled Files
 
 A few newer additions aren't indexed under a specific model yet:
 
-- [beam.md](./beam.md)
-- [muse-wonder.md](./muse-wonder.md)
-- [qwen-preferences.md](./qwen-preferences.md)
-- [unified.md](./unified.md)
+- [beam.md](./collection/beam.md)
+- [muse-wonder.md](./collection/muse-wonder.md)
+- [qwen-preferences.md](./collection/qwen-preferences.md)
+- [unified.md](./collection/unified.md)
 
 ### How to use these prompts
 
@@ -157,14 +157,14 @@ The exact location depends on your client or harness.
 Feed the file straight to Ollama:
 
 ```bash
-ollama create gemma4-jb -f gemma4.md
+ollama create gemma4-jb -f collection/gemma4.md
 ```
 
 Swap the model name and source file as needed.
 
 ### Grok Configuration
 
-[Grok-config.txt](./grok-config.txt) is meant for the config field of the target harness — not the regular conversation.
+[Grok-config.txt](./collection/grok-config.txt) is meant for the config field of the target harness — not the regular conversation.
 
 > [!NOTE]
 > Prompt behavior is version-dependent. Models get updated, instruction hierarchies shift, and system prompts rotate — what works on one release may fail on the next. If a file looks outdated, [open an issue](https://github.com/7API/deepseek-v4.1-flash-1017-abliterated/issues) or send an updated version.

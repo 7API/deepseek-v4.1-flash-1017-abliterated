@@ -6,7 +6,7 @@
 
 **Description (GitHub, ≤350 characters):**
 
-> DeepSeek V4.1 Flash 1017 Abliterated or Uncensored AI model — 35 jailbreak prompts, model guide and API. One 7API key also covers Claude, GPT, Gemini, Grok, GLM and Kimi.
+> DeepSeek V4.1 Flash 1017 Abliterated or Uncensored AI model — DeepSeek prompt, 34-file prompt collection, model guide and API. One 7API key also covers Claude, GPT, Gemini, Grok, GLM and Kimi.
 
 **Website:**
 
@@ -39,7 +39,7 @@ anthropic-compatible
 
 **Social preview:** `assets/social-preview.png` (1280×640)
 
-**Release tag:** `v1.0.0` — “DeepSeek V4.1 Flash 1017 Abliterated or Uncensored — 35 jailbreak prompts + API guide”
+**Release tag:** `v1.1.0` — “DeepSeek V4.1 Flash 1017 — DeepSeek prompt + 34-file collection + API guide”
 
 ## Website metadata (if a page is added later)
 
@@ -49,14 +49,14 @@ anthropic-compatible
 
 **Meta description (≤160 chars):**
 
-`DeepSeek V4.1 Flash 1017 abliterated or uncensored: 35 paste-ready jailbreak prompts, model guide and API access through one compatible key.`
+`DeepSeek V4.1 Flash 1017 abliterated or uncensored: primary DeepSeek prompt, 34-file collection, model guide and API access through one compatible key.`
 
 **Canonical:** use the deployed page URL, not the GitHub repo URL.
 
 **Open Graph / Twitter:**
 
 - `og:title`: `DeepSeek V4.1 Flash 1017 Abliterated or Uncensored`
-- `og:description`: `35 jailbreak prompts, a model guide, and one API key for DeepSeek V4.1 Flash 1017 abliterated or uncensored variants.`
+- `og:description`: `A primary DeepSeek prompt, a 34-file collection, a model guide, and one API key for DeepSeek V4.1 Flash 1017 variants.`
 - `og:image`: `assets/social-preview.png` (absolute URL after upload)
 - `twitter:card`: `summary_large_image`
 

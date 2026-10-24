@@ -13,9 +13,9 @@ Target: `https://github.com/7API/deepseek-v4.1-flash-1017-abliterated`
 
 Upload this folder to the repo root, including:
 
-- `README.md` (DeepSeek model guide + shared jailbreak collection)
-- all copied `*.md` prompt files from `ai-jailbreaks`
-- `grok-config.txt`, `qwen-preferences.md`
+- `README.md` (DeepSeek model guide + prompt collection index)
+- `deepseek-4-1.md` (primary DeepSeek prompt)
+- `collection/` (34 other prompt/config files)
 - `docs/`, `seo/`, `assets/`
 - `CHANGELOG.md`, `CONTRIBUTING.md`, `SECURITY.md`, `LICENSE`
 - `llms.txt`, `.gitignore`
@@ -24,7 +24,7 @@ Upload this folder to the repo root, including:
 
 **Description:**
 
-> DeepSeek V4.1 Flash 1017 Abliterated or Uncensored AI model — 35 jailbreak prompts, model guide and API. One 7API key also covers Claude, GPT, Gemini, Grok, GLM and Kimi.
+> DeepSeek V4.1 Flash 1017 Abliterated or Uncensored AI model — DeepSeek prompt, 34-file prompt collection, model guide and API. One 7API key also covers Claude, GPT, Gemini, Grok, GLM and Kimi.
 
 **Website:**
 
@@ -60,7 +60,7 @@ anthropic-compatible
 ## 4. Release
 
 - Tag: `v1.0.0`
-- Title: `DeepSeek V4.1 Flash 1017 Abliterated or Uncensored — 35 jailbreak prompts + API guide`
+- Title: `DeepSeek V4.1 Flash 1017 Abliterated or Uncensored — DeepSeek prompt + 34-file collection + API guide`
 - Notes: point to `README.md` and `docs/03-deepseek-v4.1-flash-1017-api-quickstart.md`
 
 ## 5. Cross-links
@@ -72,8 +72,8 @@ anthropic-compatible
 
 ## 6. Verify
 
-- [ ] Every jailbreak file is present
-- [ ] Collection table links resolve
+- [ ] `deepseek-4-1.md` and `collection/` are present
+- [ ] Every collection link resolves
 - [ ] README banner GIF loads
 - [ ] Social preview appears
 - [ ] Topics saved (20)

@@ -4,9 +4,10 @@ All notable changes to this repository are documented here.
 
 ## 2026-10-24 — Current release
 
+- Kept `deepseek-4-1.md` as the primary prompt at the repository root.
+- Moved the other 34 prompt/config files into `collection/` and linked the full collection from the README.
 - Finalized the DeepSeek V4.1 Flash 1017 model guide, API quickstart and client setup.
 - Added the current README, metadata, release notes and upload checklist.
-- Kept the shared 35-prompt jailbreak collection aligned with the AI Jailbreaks repository.
 - Added refreshed DeepSeek-specific banner and social preview assets.
 
 ## 2026-10-17 — Documentation and discovery

@@ -20,7 +20,7 @@ DeepSeek V4.1 Flash 1017 abliterated and uncensored — definitions, access, eva
 - **I want the API now:** [Quickstart](./03-deepseek-v4.1-flash-1017-api-quickstart.md)
 - **I use Claude Code:** [Client guide](./04-deepseek-v4.1-flash-1017-claude-code-cursor-opencode-codex.md)
 - **I need to evaluate it:** [Evaluation](./05-evaluating-deepseek-v4.1-flash-1017-abliterated.md)
-- **I need the jailbreak prompts:** [Collection](../README.md#deepseek-v41-flash-1017-jailbreak-collection-35-prompts)
+- **I need the prompt collection:** [Collection](../README.md#prompt-collection)
 
 ---
 
