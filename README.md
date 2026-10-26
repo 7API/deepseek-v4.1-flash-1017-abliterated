@@ -11,17 +11,17 @@
 </p>
 
 
-**DeepSeek V4.1 Flash 1017 is one model in the DeepSeek V4.1 family. The same 7API key also covers Claude, GPT, Gemini, Grok, GLM and Kimi — with uncensored variants where available.**
+**DeepSeek V4.1 Flash 1017 is the fast, abliterated build in the DeepSeek V4.1 family. The same 7API key also covers Claude, GPT, Gemini, Grok, GLM and Kimi. Other model families may have uncensored variants where available; this page covers the abliterated DeepSeek build.**
 
-# DeepSeek V4.1 Flash 1017 Abliterated or Uncensored — DeepSeek Prompt, Model Guide & API Access
+# DeepSeek V4.1 Flash 1017 Abliterated — Fast DeepSeek Prompt, Model Guide & API Access
 
-**Everything about DeepSeek V4.1 Flash 1017 abliterated and DeepSeek V4.1 Flash 1017 uncensored models:** what the terms mean, how to access a DeepSeek V4.1 Flash 1017 abliterated or uncensored model through one OpenAI- and Anthropic-compatible API, how to evaluate refusal behavior, and how to use it with Claude Code, Cursor, OpenCode and Codex.
+**Everything about the abliterated DeepSeek V4.1 Flash 1017 model:** what the build is, how to access it through one OpenAI- and Anthropic-compatible API, how to evaluate refusal behavior, and how to use it with Claude Code, Cursor, OpenCode and Codex.
 
-People also search for this as a **DeepSeek V4.1 Flash 1017 uncensored AI model**, a **DeepSeek V4.1 Flash 1017 abliterated model**, or a **DeepSeek V4.1 Flash 1017 no-refusal model**. The labels overlap; the evaluation questions are the same.
+People also search for this as a **DeepSeek V4.1 Flash 1017 uncensored AI model**, a **DeepSeek V4.1 Flash 1017 abliterated model**, or a **DeepSeek V4.1 Flash 1017 no-refusal model**. Those are search aliases: 7API offers the **abliterated** build for this model, not a separate uncensored build.
 
 [![Model](https://img.shields.io/badge/model-DeepSeek%20V4.1%20Flash%201017-22c55e?style=flat)](#what-is-deepseek-v41-flash-1017)
 [![Prompt](https://img.shields.io/badge/prompt-DeepSeek%204.1-22c55e?style=flat)](#prompt-collection)
-[![Variant](https://img.shields.io/badge/variant-abliterated%20%C2%B7%20uncensored-22c55e?style=flat)](#abliterated-vs-uncensored)
+[![Variant](https://img.shields.io/badge/variant-abliterated-22c55e?style=flat)](#why-this-is-the-abliterated-build)
 [![API](https://img.shields.io/badge/API-OpenAI%20%2B%20Anthropic-0ea5e9?style=flat)](#quickstart)
 [![Billing](https://img.shields.io/badge/billing-pay%20per%20token-22c55e?style=flat)](#pricing-and-access)
 
@@ -31,23 +31,20 @@ People also search for this as a **DeepSeek V4.1 Flash 1017 uncensored AI model*
 
 ---
 
-## DeepSeek V4.1 Flash 1017 Abliterated or Uncensored?
+## Why this is the abliterated build
 
-The two phrases are often used as synonyms, but they are not the same thing:
+**Availability:** 7API currently offers the **abliterated** DeepSeek V4.1 Flash 1017 build. There is **no separate uncensored build** for this model. The word “uncensored” appears in this guide because people use it when searching for reduced-refusal models; it is a keyword alias, not a second SKU.
 
-- **DeepSeek V4.1 Flash 1017 abliterated** refers to a weight-level modification that reduces the model’s refusal direction. The base model is altered so it is less likely to decline a request.
-- **DeepSeek V4.1 Flash 1017 uncensored** is the broader outcome: a model variant that refuses less often, whether through abliteration, fine-tuning or a different alignment recipe.
+Abliteration modifies model weights to reduce the refusal direction. It does not add knowledge, improve reasoning or create a different model family. The result is the fast DeepSeek V4.1 Flash 1017 build with fewer refusals.
 
-In practice, people searching for **DeepSeek V4.1 Flash 1017 abliterated** usually want a **DeepSeek V4.1 Flash 1017 uncensored model** they can run through an API. This repository covers both: the definitions, the differences, the access path through 7API, and a practical evaluation checklist.
-
-> **Honest limit:** “Abliterated” and “uncensored” describe reduced refusal behavior, not a guarantee. Results vary by model version, prompt and provider policy. See [Safety & responsible use](./docs/07-safety-and-responsible-use.md).
+> **Honest limit:** Abliteration reduces refusals; it does not guarantee refusal-free output. Results vary by model build, prompt and provider policy. See [Safety & responsible use](./docs/07-safety-and-responsible-use.md).
 
 ## Not just DeepSeek
 
-DeepSeek V4.1 Flash 1017 is one model in the 7API catalog — not the whole product. The same key and base URL also cover **Claude, GPT, Gemini, Grok, GLM and Kimi**, including uncensored and abliterated variants where available. Use this repo for DeepSeek V4.1 Flash 1017; use the [uncensored AI API guide](https://github.com/7API/uncensored-ai-api) for the full model catalog and routing patterns.
+DeepSeek V4.1 Flash 1017 is one model in the 7API catalog — not the whole product. The same key and base URL also cover **Claude, GPT, Gemini, Grok, GLM and Kimi**; other families may have uncensored variants where available. Use this repo for the abliterated DeepSeek build; use the [uncensored AI API guide](https://github.com/7API/uncensored-ai-api) for the wider catalog.
 
 <a href="https://7api.st/?utm_source=github&utm_medium=readme&utm_campaign=deepseek-v4.1-flash-1017-abliterated">
-  <img src="assets/banner.gif" width="600" alt="DeepSeek V4.1 Flash 1017 abliterated or uncensored — model guide and API access via 7API">
+  <img src="assets/banner.gif" width="600" alt="DeepSeek V4.1 Flash 1017 abliterated — model guide and API access via 7API">
 </a>
 
 ## Prompt collection
@@ -175,7 +172,7 @@ Swap the model name and source file as needed.
 Prompts age. A model update can close a persona lock, tighten an instruction hierarchy, or change how a workspace policy is interpreted. When a file stops working, you have two options:
 
 1. **Update the prompt** — open an issue or send a pull request with the model version and the failure.
-2. **Skip the prompt layer** — use a **DeepSeek V4.1 Flash 1017 abliterated or uncensored model** through 7API, where the model itself is less likely to refuse before the prompt even lands.
+2. **Skip the prompt layer** — use the **abliterated DeepSeek V4.1 Flash 1017 build** through 7API, where the model itself is less likely to refuse before the prompt even lands.
 
 The API is the fallback funnel: [DeepSeek V4.1 Flash 1017 API quickstart](./docs/03-deepseek-v4.1-flash-1017-api-quickstart.md) · [Get a key](https://7api.st/?utm_source=github&utm_medium=readme&utm_campaign=deepseek-v4.1-flash-1017-abliterated).
 
@@ -192,12 +189,13 @@ DeepSeek V4.1 Flash 1017 is a good fit for:
 - cost-sensitive batch jobs;
 - teams that want a non-US model family in their routing mix.
 
-Abliterated and uncensored variants are for cases where the standard model’s refusal behavior gets in the way of research, creative writing or agent loops.
+The abliterated build is for cases where the standard model’s refusal behavior gets in the way of research, creative writing or agent loops.
 
-## Abliterated vs. uncensored
+## Abliterated vs. uncensored (search term)
 
-| | DeepSeek V4.1 Flash 1017 Abliterated | DeepSeek V4.1 Flash 1017 Uncensored |
+| | DeepSeek V4.1 Flash 1017 Abliterated | Uncensored (search alias) |
 |---|---|---|
+| **Offered here** | **Yes** | **No separate build** |
 | **Level** | Model weights | Training / tuning / prompt outcome |
 | **Method** | Refusal-direction removal | Fine-tuning, data curation, merges or abliteration |
 | **Refusal behavior** | Often strongly reduced | Reduced, varies by recipe |
@@ -207,12 +205,12 @@ Abliterated and uncensored variants are for cases where the standard model’s r
 
 Read the full comparison: [Abliterated vs. uncensored →](./docs/02-abliterated-vs-uncensored.md)
 
-## Why use DeepSeek V4.1 Flash 1017 abliterated or uncensored?
+## Why use DeepSeek V4.1 Flash 1017 abliterated?
 
 - **Coding and agents** — DeepSeek models are built for tool use, structured instructions and coding workflows.
 - **Bilingual work** — strong Chinese/English handling for products with mixed audiences.
 - **Cost efficiency** — a practical alternative to routing every request to the largest frontier model.
-- **Fewer interruptions** — uncensored/abliterated variants reduce mid-task refusals in creative and research work.
+- **Fewer interruptions** — the abliterated build reduces mid-task refusals in creative and research work.
 - **One API** — access DeepSeek V4.1 Flash 1017 alongside Claude, GPT, Gemini, Grok, DeepSeek and Kimi through 7API.
 - **Compatible** — OpenAI SDK, Anthropic SDK, Claude Code, Cursor, OpenCode and Codex CLI.
 
@@ -229,7 +227,7 @@ export SEVEN_API_BASE_URL="https://.../v1"
 
 ### 2. Confirm the DeepSeek V4.1 Flash 1017 model ID
 
-Open the dashboard and copy the exact ID for the DeepSeek V4.1 Flash 1017 variant you want — standard, abliterated or uncensored. Availability changes; the dashboard is the source of truth.
+Open the dashboard and copy the exact ID for the DeepSeek V4.1 Flash 1017 build you want — standard or abliterated. This repository documents the abliterated build. Availability changes; the dashboard is the source of truth.
 
 ### 3. OpenAI-compatible request
 
@@ -322,9 +320,9 @@ Live DeepSeek V4.1 Flash 1017 pricing and availability are in the 7API dashboard
 
 ## FAQ
 
-**Is DeepSeek V4.1 Flash 1017 abliterated the same as DeepSeek V4.1 Flash 1017 uncensored?**
+**Is DeepSeek V4.1 Flash 1017 abliterated the same as uncensored?**
 
-Not exactly. Abliteration is a weight-level technique; “uncensored” is the broader outcome. A DeepSeek V4.1 Flash 1017 uncensored model may be abliterated, fine-tuned or both. [Read the comparison →](./docs/02-abliterated-vs-uncensored.md)
+Not exactly. Abliteration is a weight-level technique; “uncensored” is a broader outcome and a search alias. **For this model, 7API offers the abliterated build only.** [Read the comparison →](./docs/02-abliterated-vs-uncensored.md)
 
 **How do I access DeepSeek V4.1 Flash 1017 abliterated through an API?**
 
@@ -332,7 +330,7 @@ Create a 7API account, copy the base URL and key, and select the current DeepSee
 
 **Does 7API have a DeepSeek V4.1 Flash 1017 uncensored model?**
 
-DeepSeek models are part of the 7API catalog, and uncensored/abliterated variants are listed in the dashboard when available. Availability changes by model and version; check the dashboard before relying on a specific ID.
+**No separate uncensored build is offered for this model.** Use the abliterated DeepSeek V4.1 Flash 1017 ID. “Uncensored” is a search alias, not a second SKU.
 
 **Can I use DeepSeek V4.1 Flash 1017 with Claude Code or Cursor?**
 
@@ -344,7 +342,7 @@ It is a tool, not a guarantee. Use it lawfully, evaluate the exact model, and ad
 
 **Will it never refuse?**
 
-No. Abliterated and uncensored variants reduce refusals but do not eliminate them. Behavior depends on the model version, prompt and provider policy.
+No. The abliterated build reduces refusals but does not eliminate them. Behavior depends on the model build, prompt and provider policy.
 
 **Is there a subscription?**
 
@@ -388,7 +386,7 @@ Start with the [uncensored AI API model catalog](https://github.com/7API/uncenso
 
 <div align="center">
 
-**Star this repository if it helped you evaluate DeepSeek V4.1 Flash 1017 abliterated or uncensored.**
+**Star this repository if it helped you evaluate the abliterated DeepSeek V4.1 Flash 1017 build.**
 
 <sub>7API is an independent API gateway. DeepSeek is a trademark of its respective owner. Not affiliated with GitHub, DeepSeek or the model providers. Use responsibly and follow the terms that apply to you.</sub>
 
