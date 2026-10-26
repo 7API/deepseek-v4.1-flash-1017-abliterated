@@ -11,8 +11,9 @@
   <rect x="22" y="26" width="164" height="28" rx="14" fill="#22f08a" opacity=".55" filter="url(#glow)"/>
   <rect x="14" y="8" width="180" height="44" rx="22" fill="url(#g)"/>
   <rect x="14.5" y="8.5" width="179" height="43" rx="21.5" fill="none" stroke="#fff" stroke-opacity=".25"/>
-  <g transform="translate(27 25) scale(0.78)" fill="none" stroke="#03140b" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="translate(24 21) scale(0.75)" fill="none" stroke="#03140b" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
     <path d="M12 2v20M17 5.5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
   </g>
-  <text x="58" y="45" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#03140b">Model Pricing</text>
+  <text x="51" y="36" font-family="Segoe UI, Arial, sans-serif" font-size="16.5" font-weight="700" fill="#03140b" textLength="110" lengthAdjust="spacingAndGlyphs">Model Pricing</text>
+  <path transform="translate(168 21) scale(0.75)" d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="#03140b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
