@@ -6,6 +6,7 @@
 
 <p>
   <a href="https://7api.st/?utm_source=github&utm_medium=readme&utm_campaign=deepseek-v4.1-flash-1017-abliterated"><img src="./assets/visit-website.svg" width="208" height="74" alt="Visit website"></a>
+  <a href="https://7api.st/pricing"><img src="./assets/model-pricing.svg" width="208" height="74" alt="Model pricing"></a>
   <a href="https://t.me/seven_api"><img src="./assets/telegram-channel.svg" width="216" height="74" alt="Telegram Channel"></a>
   <a href="https://t.me/hqclaudebot?start=github2"><img src="./assets/telegram-bot.svg" width="183" height="74" alt="Telegram Bot"></a>
 </p>
@@ -309,7 +310,7 @@ The full checklist is in [Evaluating DeepSeek V4.1 Flash 1017 Abliterated →](.
 - **Subkeys** — separate budgets for projects, teammates or clients.
 - **Referrals** — earn 15% of every deposit your referrals make.
 
-Live DeepSeek V4.1 Flash 1017 pricing and availability are in the 7API dashboard. See [Pricing and limits](./docs/03-deepseek-v4.1-flash-1017-api-quickstart.md#pricing-and-limits) for the billing model.
+Live DeepSeek V4.1 Flash 1017 pricing and availability are in the 7API dashboard. See the [Model Pricing page](https://7api.st/pricing) for the current rates, and [Pricing and limits](./docs/03-deepseek-v4.1-flash-1017-api-quickstart.md#pricing-and-limits) for the billing model.
 
 ## Honest limits
 

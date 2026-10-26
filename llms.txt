@@ -30,3 +30,4 @@
 ## Website
 
 - https://7api.st
+- https://7api.st/pricing

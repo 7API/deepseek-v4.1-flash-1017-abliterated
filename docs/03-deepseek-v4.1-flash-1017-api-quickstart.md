@@ -104,7 +104,7 @@ Streaming support depends on the model. Disable it if a model does not stream.
 - **Subkeys** — separate budgets for projects, teammates or clients.
 - **Referrals** — earn 15% of every deposit your referrals make.
 
-Live DeepSeek V4.1 Flash 1017 pricing, context limits and availability are in the dashboard. If you receive `429`, slow down, add backoff and check your balance.
+Live DeepSeek V4.1 Flash 1017 pricing, context limits and availability are in the dashboard. See the [Model Pricing page](https://7api.st/pricing) for current rates. If you receive `429`, slow down, add backoff and check your balance.
 
 ## Common first-run issues
 
