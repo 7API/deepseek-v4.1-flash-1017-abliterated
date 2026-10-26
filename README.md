@@ -11,7 +11,7 @@
 </p>
 
 <p>
-  <a href="https://7api.st/pricing"><img src="./assets/model-pricing.svg" width="208" height="74" alt="Model pricing"></a>
+  <a href="https://7api.st/pricing"><img src="./assets/model-pricing.svg?v=2" width="208" height="74" alt="Model pricing"></a>
 </p>
 
 **DeepSeek V4.1 Flash 1017 is one model in the DeepSeek V4.1 family. The same 7API key also covers Claude, GPT, Gemini, Grok, GLM and Kimi — with uncensored variants where available.**
